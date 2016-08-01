@@ -11,21 +11,21 @@
 # (Using that method instead of site.owner, in case your posts get cloned with your repo.)
 
 # Site settings
-title: arkadianriver
-description: Flowing creativity &#x2192; Cascading bliss
+title: Wing-Li
+description: 每一个不曾起舞的日子，都是对生命的辜负。
 owner:
-  name: Gary Faircloth # or company name
-  email: gfair@arkadianriver.com
-  url: http://arkadianriver.com
+  name: Wing-Li # or company name
+  email: iamlyl@foxmail.com
+  url: http://wing-li.github.io
 first_published: 1996 # if migrating another site, the year of your first publish
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://arkadianriver.com" # the base hostname & protocol for your site
+url: "http://wing-li.github.io" # the base hostname & protocol for your site
 
 # on landing page
 # - set the greeting only if you want to display the first green section
 greeting:
   title: Welcome!  
-  text: I hope you enjoy my collection
+  text: Rookie also has the power to pursue the dream
 # - title for your blog's featured posts
 features-title: Featured topics
 # - displayed at the bottom
@@ -34,11 +34,12 @@ closing-para: Feel free to get in touch. Cheers!
 
 # on all pages (and the first three you list display with greeting, if included)
 social:
-  twitter: https://twitter.com/arkadianriver
-  github: https://github.com/arkadianriver
-  linkedin-square: https://linkedin.com/in/garyfaircloth
-  facebook-official: https://facebook.com/gary.faircloth
-  google-plus-square: https://plus.google.com/u/0/+GaryFaircloth
+  #twitter: https://twitter.com/arkadianriver
+  github: https://github.com/Wing-Li
+  jianshu: http://www.jianshu.com/users/320f9e8f7fc9/latest_articles
+  #linkedin-square: https://linkedin.com/in/garyfaircloth
+  #facebook-official: https://facebook.com/gary.faircloth
+  #google-plus-square: https://plus.google.com/u/0/+GaryFaircloth
   email: /contact/
   #flickr:
   #instagram:
