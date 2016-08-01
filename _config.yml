@@ -12,7 +12,7 @@
 
 # Site settings
 title: Wing-Li
-description: 每一个不曾起舞的日子，都是对生命的辜负。
+description: Rookie also has the power to pursue the dream
 owner:
   name: Wing-Li # or company name
   email: iamlyl@foxmail.com
@@ -24,8 +24,8 @@ url: "http://wing-li.github.io" # the base hostname & protocol for your site
 # on landing page
 # - set the greeting only if you want to display the first green section
 greeting:
-  title: Welcome!  
-  text: Rookie also has the power to pursue the dream
+  title: 愿你相信
+  text: 每一个 不曾起舞的日子，都是 对生命的辜负。
 # - title for your blog's featured posts
 features-title: Featured topics
 # - displayed at the bottom
@@ -40,7 +40,7 @@ social:
   #linkedin-square: https://linkedin.com/in/garyfaircloth
   #facebook-official: https://facebook.com/gary.faircloth
   #google-plus-square: https://plus.google.com/u/0/+GaryFaircloth
-  email: /contact/
+  email: tomail:iamlyl@foxmail.com
   #flickr:
   #instagram:
   #youtube-square:
