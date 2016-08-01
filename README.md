@@ -1,28 +1,40 @@
-# Moon Jekyll Theme [![Donate](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.me/taylantatli/0usd)
-    
-######(If you like this theme or using it, please give a :star: for motivation.)
+## arkadianriver.com
 
-**[Moon](http://taylantatli.github.io/Moon)** is a minimal, one column jekyll theme.
+```sh
+✔ pushd new-site
+✔ human init new-site
+✔ human apply-design
+✔ human edit
+✔ human backup existing-site
+✔ human push new-site
+✔ human cherry-pick -from existing-site
+✔ human ditch existing-site
+✔ > Are you sure? n
+* human considers "meaning of life"
+  > "meaning of life" unknown.
+  human ditch existing-site --force=true
+  popd
+```
+### How to
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+If you clone or fork this repository for your own, you'll want to..
 
-## Preview
+0. Edit the `_config.yml` file.
+1. Add a `_data/tokens.yml` file with your IDs & mail program.
+2. Add author info for yourself in `_data/authors.yml`.
+3. Provide your images and continue tweaking to your heart's desire, or not.
 
-![screenshot of Moon](https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png)    
-![screenshot of Moon](https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png)
+Use the posts in the 31st century as guides for yours. They're built by jekyll only when
+the `--future` option is used.
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
+You can run `ruby compose.rb` to create new draft posts.
 
-## Getting Started
+If you're building your site on Windows (like me) and you use WinSCP to sync with your
+remote site, you can use the `site.bat` file. Set up a `_site.env` file
+as described in the comments of `site.bat` and change the excludes list for your site.
 
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
+`site dev` runs `jekyll serve --future --drafts` in development mode.  
+`site devnof` runs `jekyll serve --drafts` in development mode.  
+`site preview` runs `jekyll serve` in production mode.  
+`site prod` simply builds with `jekyll build` in production mode (no serve).  
+`site publish` uses WinSCP's `synchronize` feature to mirror to a remote site.

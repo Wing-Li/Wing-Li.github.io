@@ -1,49 +1,59 @@
 ---
-layout: compress
+layout: default
 ---
-<!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
-<head>
-    {% include head.html %}
-</head>
-<body>
-    {% include nav.html %}
-    <!-- Header -->
-    <header class="header" role="banner">
-        <div class="wrapper animated fadeIn">
-            <div class="content">
-                <div class="post-title {% if page.feature %} feature {% endif %}">
-                    <h1>{{ page.title }}</h1>
-                    <h4>{{ page.date | date_to_string }}</h4>
-                    {% if site.reading_time %}
-                    <p class="reading-time">
-                      <i class="fa fa-clock-o"></i>
-                      {% include read-time.html %}
-                    </p><!-- /.entry-reading-time -->
-                    {% endif %}
-                    {% if page.project %}
-                    <a class="btn zoombtn" href="{{site.url}}/projects/">
-                    {% else %}
-                    <a class="btn zoombtn" href="{{site.url}}/posts/">
-                    {% endif %}
-                        <i class="fa fa-chevron-left"></i>
-                    </a>
-                </div>
-                {{ content }}
-                <div class="entry-meta">
-                {% include meta.html %}
-                </div>
-            </div>
-        </div>
-        {% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp"></section><!-- /#disqus_thread -->{% endif %}
-    </header>
-    {% include scripts.html %}
-    {% if site.mathjax == true %}
-    <!-- MathJax -->
-    <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    {% endif %}
-</body>
-</html>
+  <section class="wrapper{% if page.options contains 'minihead' %} minihead{% endif %} style5">
+    <div class="inner{% if page.options contains 'fullwidth' %} fullwidth{% endif %}">{%
+      unless site.navlinks == 'none'
+%}{%    if page.categories contains 'works'
+%}{%      assign idxperma = '/works/'
+%}{%      assign idxtitle = 'Works Index'
+%}{%      assign idxbutton = 'Index'
+%}{%      include fn_groupsort_reverse.html unsorted=site.categories.works groupby='priority' sortby='date'
+%}{%    endif
+%}{%    if page.categories.first == 'topics' and page.categories.last != 'topics'
+%}{%      assign idxperma = page.categories | join: '/' | prepend: '/' | append: '/'
+%}{%      assign idxtitle = 'Start page'
+%}{%      assign idxbutton = 'Start'
+%}{%      assign sorted_list = site.empty_array
+%}{%      for topic in site.categories.topics
+%}{%        if topic.categories.last == page.categories.last
+%}{%          assign sorted_list = sorted_list | push: topic
+%}{%        endif
+%}{%      endfor
+%}{%      assign sorted_list = sorted_list | sort: 'date'
+%}{%    endif
+%}{%  endunless
+%}{%  if sorted_list and (site.navlinks == 'top' or site.navlinks == 'both')
+%}{%    include fn_sortednav.html posclass='btntop'
+%}{%  endif
+%}{%  unless page.options contains 'minihead' %}
+      <span id="post-date">{{ page.date  | date: "%-d %B %Y" }}</span><hr
+        style="margin-top:3px;" />{%
+      endunless
+%}{%  if page.categories contains 'works' and page.tags %}
+      <h4>Skills</h4>
+  {%    assign work = page
+%}{%    include techlist.html %}
+  {%  endif
+%}
+
+      {{ content }}{%
+
+
+      if sorted_list and (site.navlinks == 'bottom' or site.navlinks == 'both')
+%}{%    unless perma
+%}{%      assign perma = '/topics/'
+%}{%    endunless
+%}{%    include fn_sortednav.html posclass='btnbottom'
+%}{%  endif
+%}{%  unless page.author == 'none'
+%}{%    include author-block.html %}
+  {%  endunless
+%}{%  if jekyll.environment == "production"
+%}{%    unless page.options contains nocomment or page.categories contains 'works'
+%}{%      include disqus.html %}
+  {%    endunless
+%}{%  endif
+%}
+    </div>
+  </section>
