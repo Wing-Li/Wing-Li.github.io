@@ -1727,14 +1727,25 @@ $baseurl: '{{ site.baseurl }}/images';
 	#greeting{
 		height: 100vh;
 		min-height: 35em;
+		align-content: center;
 	}
 	#landing_pages{
 		height: 100vh;
+		min-height: 35em;
+		align-content: center;
+	}
+	#suibi{
+		height: 50vh;
+		min-height: 35em;
+	}
+	#dev{
+		height: 50vh;
 		min-height: 35em;
 	}
 	#cta{
 		height: 100vh;
 		min-height: 35em;
+		align-content: center;
 	}
 
 /* Banner */
