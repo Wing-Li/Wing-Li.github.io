@@ -1724,6 +1724,19 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 	}
 
+	#greeting{
+		height: 100vh;
+		min-height: 35em;
+	}
+	#landing_pages{
+		height: 100vh;
+		min-height: 35em;
+	}
+	#cta{
+		height: 100vh;
+		min-height: 35em;
+	}
+
 /* Banner */
 
 	#banner {
