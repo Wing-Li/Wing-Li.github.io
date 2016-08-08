@@ -1725,9 +1725,9 @@ $baseurl: '{{ site.baseurl }}/images';
 	}
 
 	#greeting{
-		height: 100vh;
+		height: 100%;
 		min-height: 35em;
-		margin-top: 30%;
+		padding-top: 30%;
 	}
 	#landing_pages{
 		height: 100vh;
@@ -1743,9 +1743,9 @@ $baseurl: '{{ site.baseurl }}/images';
 		min-height: 35em;
 	}
 	#cta{
-		height: 100vh;
+		height: 100%;
 		min-height: 35em;
-		margin-top: 40%;
+		padding-top: 40%;
 	}
 
 /* Banner */
