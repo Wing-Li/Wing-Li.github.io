@@ -34,21 +34,59 @@ endif %}
 <hr style="margin:1em 0 1em 0;"/>
 
 <ul style="list-style-type: none;">{%
-    assign p = '9999'
-    %}{% for post in site.categories.topics
-    %}{% assign n = post.date | date: "%Y"
-    %}{% if n != p
-    %}{% assign p = n
-    %}
-    <br/><h5>{{ n }}</h5>{%
-    endif %}
-    <li style="padding-bottom: 6px;"><code>[{{ post.date | date: "%d %b" }}]</code>&nbsp;
-        <a href="{{ post.url }}" style="white-space: nowrap;"><b>{{ post.title }}</b></a>&nbsp;
-        {{ post.excerpt | strip_html | truncatewords: 12 }}
+    <!--assign p = '9999'-->
+    <!--%}{% for post in site.categories.topics-->
+    <!--%}{% assign n = post.date | date: "%Y"-->
+    <!--%}{% if n != p-->
+    <!--%}{% assign p = n-->
+    <!--%}-->
+    <!--<br/><h5>{{ n }}</h5>{%-->
+    <!--endif %}-->
+    <!--<li style="padding-bottom: 6px;"><code>[{{ post.date | date: "%d %b" }}]</code>&nbsp;-->
+        <!--<a href="{{ post.url }}" style="white-space: nowrap;"><b>{{ post.title }}</b></a>&nbsp;-->
+        <!--{{ post.excerpt | strip_html | truncatewords: 12 }}-->
+    <!--</li>-->
+    <!--{%-->
+    <!--endfor-->
+    <!--%}-->
+    <br/><h5>Android学习</h5>
+    <li style="padding-bottom: 6px;"><code>[2016.07.25]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/4b15ef3494ce" target="_blank" style="white-space: nowrap;"><b>Android消息处理机制简单分析（Handler,Looper,MessageQueue,
+            Message）</b></a>
     </li>
-    {%
-    endfor
-    %}
+    <li style="padding-bottom: 6px;"><code>[2016.07.18]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/df24bae5e8c3" target="_blank" style="white-space: nowrap;"><b>ViewFlipper探索与使用——顺便实现Android图片轮播</b></a>
+    </li>
+    <li style="padding-bottom: 6px;"><code>[2016.07.06]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/b368b4d9554b" target="_blank" style="white-space: nowrap;"><b>做一个自己的WiFi密码查看器</b></a>
+    </li>
+    <li style="padding-bottom: 6px;"><code>[2016.05.18]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/3a6a3d2fb340" target="_blank" style="white-space: nowrap;"><b>一个TextView设置多种格式(类似于“评论”的样式)</b></a>
+    </li>
+    <li style="padding-bottom: 6px;"><code>[2016.04.04]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/8e6b75e11a3d" target="_blank" style="white-space: nowrap;"><b>Android炫酷的底部切换效果(BottomBar)</b></a>
+    </li>
+    <li style="padding-bottom: 6px;"><code>[2016.03.26]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/442a29da7b23" target="_blank" style="white-space: nowrap;"><b>Retrofit 2.0非常简单的入门（翻译官方文档）</b></a>
+    </li>
+    <li style="padding-bottom: 6px;"><code>[2016.03.24]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/3fcf8ba18d7f" target="_blank" style="white-space: nowrap;"><b>史上最全WebView使用，附送Html5Activity一份</b></a>
+    </li>
+    <li style="padding-bottom: 6px;"><code>[2016.03.20]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/cfb3d467687d" target="_blank" style="white-space: nowrap;"><b>Glide 使用必须知道的基础属性——Google推荐的图片加载库</b></a>
+    </li>
+    <li style="padding-bottom: 6px;"><code>[2016.03.20]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/356a997881a7" target="_blank" style="white-space: nowrap;"><b>Android绘制最基础的几何图形</b></a>
+    </li>
+    <li style="padding-bottom: 6px;"><code>[2016.03.20]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/4915e1a8734a" target="_blank" style="white-space: nowrap;"><b>最基础的自定义View——用Canvas显示动画</b></a>
+    </li>
+    <li style="padding-bottom: 6px;"><code>[2016.03.08]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/cb61847acb38" target="_blank" style="white-space: nowrap;"><b>FileProvider共享文件、缓存</b></a>
+    </li>
+    <li style="padding-bottom: 6px;"><code>[2016.03.07]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/d099d48cf843" target="_blank" style="white-space: nowrap;"><b>最基础的自定义ViewGroup</b></a>
+    </li>
 </ul>
 
 {%  endif %}
