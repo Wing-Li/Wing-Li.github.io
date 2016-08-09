@@ -39,7 +39,7 @@
     if site.greeting %}
     <!-- One -->
     <section id="greeting" class="wrapper style1 special">
-        <div class="inner">
+        <div class="inner" style="margin-top: 15%;">
             <header class="major">
                 <h2>{% if site.greeting.title %}{{ site.greeting.title }}{% else %}{{ site.title }}{% endif %}</h2>
 
@@ -50,11 +50,11 @@
                 for socloc in site.social limit:3 %}{%
                 if socloc[1] %}{%
                 if socloc[0] == 'email' %}
-                <li><a target="_blank" href="{{ socloc[1] }}" class="icon fa-envelope major style1"
+                <li style="margin-left: 25px;"><a target="_blank" href="{{ socloc[1] }}" class="icon fa-envelope major style1"
                 ><span class="label">E-mail</span></a></li>
                 {%
                 else %}
-                <li><a target="_blank" href="{{ socloc[1] }}" class="icon fa-{{ socloc[0] }} major style1"
+                <li style="margin-left: 25px;"><a target="_blank" href="{{ socloc[1] }}" class="icon fa-{{ socloc[0] }} major style1"
                 ><span class="label">{{ socloc[0] }}</span></a></li>
                 {%
                 endif %}{%
