@@ -1745,6 +1745,10 @@ $baseurl: '{{ site.baseurl }}/images';
 		min-height: 35em;
 	}
 
+	.maxheight{
+		height: 100%;
+	}
+
 /* Banner */
 
 	#banner {
