@@ -1,1 +1,0 @@
-define("common:widget/loading/loading.js",function(n,o,i){var e={init:function(){$(".lesson_loading").remove()}};i.exports=e});

@@ -1,1 +1,0 @@
-define("course:widget/lessonlist/lessonlist.js",function(i,n,s){var t={init:function(){this.analytic()},analytic:function(){window.courseSlug&&sa.track("study_ke_list",{ku_name:window.courseSlug})}};s.exports=t});
