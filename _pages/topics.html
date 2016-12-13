@@ -8,93 +8,139 @@ image: pic01.jpg
 background-image: pic01.jpg
 ---
 
-{%  if site.posts %}{%
-      if site.tags.featured %}
-  <hr style="margin:0 0 1em 0;" />
-  <h4>Featured</h4>
-  <ul class="post-list">{%
-        for post in site.categories.topics %}{%
-          if post.tags contains "featured" %}
-      <li>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-          <div class="container">
-            <p class="post-title">{{ post.title }}</p>
-            <p class="post-date">{{ post.date | date: "%Y-%m-%d" }}</p>
-            <p class="post-desc">{{ post.excerpt | strip_html | truncatewords: 12 }}</p>
-          </div>
+{%  if site.posts %}
+{%if site.tags.featured %}
+<hr style="margin:0 0 1em 0;"/>
+<h4>Featured</h4>
+<ul class="post-list">
+    <li>
+        <a class="post-link" href="http://www.jianshu.com/p/3fcf8ba18d7f">
+            <div class="container">
+                <p class="post-title">WebView使用</p>
+                <p class="post-date">2016-03-24</p>
+                <p class="post-desc">史上最全WebView使用，附送Html5Activity一份</p>
+            </div>
         </a>
-      </li>{%
-          endif %}{%
-        endfor %}
-  </ul>{%
-      endif %}
-  <hr style="margin:1em 0 1em 0;" />
+    </li>
+    <li>
+        <a class="post-link" href="http://www.jianshu.com/p/c4988c8be615">
+            <div class="container">
+                <p class="post-title">开发工具</p>
+                <p class="post-date">2016-03-14</p>
+                <p class="post-desc">记录一些自己的开发习惯，Chrome插件、AndroidStudio插件及设置格式迁移</p>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a class="post-link" href="http://www.jianshu.com/p/535901c7459f">
+            <div class="container">
+                <p class="post-title">AndroidStudio</p>
+                <p class="post-date">2016-03-17</p>
+                <p class="post-desc">AndroidStudio基本设置，以及一些使用小技巧</p>
+            </div>
+        </a>
+    </li>
 
-    <ul style="list-style-type: none;">
-	<br/><h5>Android学习</h5>
-	{%  for post in site.categories.topics %}
-	  {%  if post.tags contains "androidlearn" %}
-      <li style="padding-bottom: 8px;"><code>[{{ post.date | date: "%d %b" }}]</code>&nbsp;
-        <a href="{{ post.url }}" style="white-space: nowrap;"><b>{{ post.title }}</b></a>
-      </li>
-	  {%  endif %}
-    {%  endfor %}
-	
-	<br/><h5>源码探索</h5>
-	{%  for post in site.categories.topics %}
-	  {%  if post.tags contains "sourceexploration" %}
-      <li style="padding-bottom: 8px;"><code>[{{ post.date | date: "%d %b" }}]</code>&nbsp;
-        <a href="{{ post.url }}" style="white-space: nowrap;"><b>{{ post.title }}</b></a>
-      </li>
-	  {%  endif %}
-    {%  endfor %}
-	
-	<br/><h5>Android架构</h5>
-	{%  for post in site.categories.topics %}
-	  {%  if post.tags contains "androidframework" %}
-      <li style="padding-bottom: 8px;"><code>[{{ post.date | date: "%d %b" }}]</code>&nbsp;
-        <a href="{{ post.url }}" style="white-space: nowrap;"><b>{{ post.title }}</b></a>
-      </li>
-	  {%  endif %}
-    {%  endfor %}
-	
-	<br/><h5>开发中遇到的坑</h5>
-	{%  for post in site.categories.topics %}
-	  {%  if post.tags contains "problem" %}
-      <li style="padding-bottom: 8px;"><code>[{{ post.date | date: "%d %b" }}]</code>&nbsp;
-        <a href="{{ post.url }}" style="white-space: nowrap;"><b>{{ post.title }}</b></a>
-      </li>
-	  {%  endif %}
-    {%  endfor %}
-	
-	<br/><h5>资料整理集合</h5>
-	{%  for post in site.categories.topics %}
-	  {%  if post.tags contains "datacollection" %}
-      <li style="padding-bottom: 8px;"><code>[{{ post.date | date: "%d %b" }}]</code>&nbsp;
-        <a href="{{ post.url }}" style="white-space: nowrap;"><b>{{ post.title }}</b></a>
-      </li>
-	  {%  endif %}
-    {%  endfor %}
-	
-	<br/><h5>扩展了解</h5>
-	{%  for post in site.categories.topics %}
-	  {%  if post.tags contains "expanded" %}
-      <li style="padding-bottom: 8px;"><code>[{{ post.date | date: "%d %b" }}]</code>&nbsp;
-        <a href="{{ post.url }}" style="white-space: nowrap;"><b>{{ post.title }}</b></a>
-      </li>
-	  {%  endif %}
-    {%  endfor %}
-	
-	<br/><h5>开发习惯</h5>
-	{%  for post in site.categories.topics %}
-	  {%  if post.tags contains "developmenthabits" %}
-      <li style="padding-bottom: 8px;"><code>[{{ post.date | date: "%d %b" }}]</code>&nbsp;
-        <a href="{{ post.url }}" style="white-space: nowrap;"><b>{{ post.title }}</b></a>
-      </li>
-	  {%  endif %}
-    {%  endfor %}
-		
-    </ul>
+</ul>
+{%
+endif %}
+<hr style="margin:1em 0 1em 0;"/>
+
+<ul style="list-style-type: none;">
+    <br/><h5>Android学习</h5>
+    <li style="padding-bottom: 8px;"><code>[2016.09.13]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/87bb4a000bae" target="_blank" >Android 夜间模式（多主题）探索</a>
+    </li>
+    <li style="padding-bottom: 8px;"><code>[2016.08.16]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/533240d222d3" target="_blank" >Gradle多渠道打包(动态设定App名称，应用图标，替换常量，更改包名，变更渠道)</a>
+    </li>
+    <li style="padding-bottom: 8px;"><code>[2016.07.25]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/4b15ef3494ce" target="_blank" >Android消息处理机制简单分析（Handler,Looper,MessageQueue,Message）</a>
+    </li>
+    <li style="padding-bottom: 8px;"><code>[2016.07.18]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/df24bae5e8c3" target="_blank" >ViewFlipper探索与使用——顺便实现Android图片轮播</a>
+    </li>
+    <li style="padding-bottom: 8px;"><code>[2016.07.06]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/b368b4d9554b" target="_blank" >做一个自己的WiFi密码查看器</a>
+    </li>
+    <li style="padding-bottom: 8px;"><code>[2016.05.18]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/3a6a3d2fb340" target="_blank" >一个TextView设置多种格式(类似于“评论”的样式)</a>
+    </li>
+    <li style="padding-bottom: 8px;"><code>[2016.04.04]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/8e6b75e11a3d" target="_blank" >Android炫酷的底部切换效果(BottomBar)</a>
+    </li>
+    <li style="padding-bottom: 8px;"><code>[2016.03.26]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/442a29da7b23" target="_blank" >Retrofit 2.0非常简单的入门（翻译官方文档）</a>
+    </li>
+    <li style="padding-bottom: 8px;"><code>[2016.03.24]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/3fcf8ba18d7f" target="_blank" >史上最全WebView使用，附送Html5Activity一份</a>
+    </li>
+    <li style="padding-bottom: 8px;"><code>[2016.03.20]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/cfb3d467687d" target="_blank" >Glide 使用必须知道的基础属性——Google推荐的图片加载库</a>
+    </li>
+    <li style="padding-bottom: 8px;"><code>[2016.03.20]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/356a997881a7" target="_blank" >Android绘制最基础的几何图形</a>
+    </li>
+    <li style="padding-bottom: 8px;"><code>[2016.03.20]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/4915e1a8734a" target="_blank" >最基础的自定义View——用Canvas显示动画</a>
+    </li>
+    <li style="padding-bottom: 8px;"><code>[2016.03.08]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/cb61847acb38" target="_blank" >FileProvider共享文件、缓存</a>
+    </li>
+    <li style="padding-bottom: 8px;"><code>[2016.03.07]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/d099d48cf843" target="_blank" >最基础的自定义ViewGroup</a>
+    </li>
+
+    <br/><h5>源码探索</h5>
+    <li style="padding-bottom: 8px;"><code>[2016.09.02]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/440014182089" target="_blank" >Volley 源码探索</a>
+    </li>
+
+    <br/><h5>Android架构</h5>
+    <li style="padding-bottom: 8px;"><code>[2016.05.16]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/11fd44bdc1ae" target="_blank" >架构杂谈（Android、Web）</a>
+    </li>
+
+    <br/><h5>开发中遇到的坑</h5>
+    <li style="padding-bottom: 8px;"><code>[2016.08.03]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/a09b2df923b7" target="_blank" >TextView高度和textSize大小不一致，你知道吗？</a>
+    </li>
+    <li style="padding-bottom: 8px;"><code>[2016.08.02]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/8bd73487cd77" target="_blank" >Android手机连接编译器失败，端口号被占用</a>
+    </li>
+    <li style="padding-bottom: 8px;"><code>[2016.06.12]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/bc1817a05bf7" target="_blank" >AndroidStudio打包出错</a>
+    </li>
+    <li style="padding-bottom: 8px;"><code>[2016.04.15]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/8bd73487cd77" target="_blank" >Fragment中嵌套Fragment，不显示</a>
+    </li>
+
+    <br/><h5>资料整理集合</h5>
+    <li style="padding-bottom: 8px;"><code>[2016.08.14]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/16e1e4aa2d30" target="_blank" >Android资料集合</a>
+    </li>
+    <li style="padding-bottom: 8px;"><code>[2016.06.102</code>&nbsp;
+        <a href="http://www.jianshu.com/p/175bd8e1a34d" target="_blank" >Android常用第三方组件收集</a>
+    </li>
+
+    <br/><h5>扩展了解</h5>
+    <li style="padding-bottom: 8px;"><code>[2016.07.29]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/562aa3baa9b8" target="_blank" >HTTP协议中，除了GET和POST还有什么请求？</a>
+    </li>
+    <li style="padding-bottom: 8px;"><code>[2016.05.27]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/f22b26881fb0" target="_blank" >Instant Apps(即使应用) 调查——Google I/O 大会的黑科技</a>
+    </li>
+
+    <br/><h5>开发习惯</h5>
+    <li style="padding-bottom: 8px;"><code>[2016.03.14]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/c4988c8be615" target="_blank" >记录一些自己的开发习惯，Chrome插件、AndroidStudio插件及设置格式迁移</a>
+    </li>
+    <li style="padding-bottom: 8px;"><code>[2016.03.17]</code>&nbsp;
+        <a href="http://www.jianshu.com/p/535901c7459f" target="_blank" >AndroidStudio基本设置，以及一些使用小技巧</a>
+    </li>
+
+
+
+</ul>
 
 {%  endif %}
-
