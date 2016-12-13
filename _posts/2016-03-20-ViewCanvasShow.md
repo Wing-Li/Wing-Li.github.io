@@ -1,8 +1,9 @@
 ---
 title: 最基础的自定义View——用Canvas显示动画
-permalink: /topics/
+permalink: /topics/my topic group/
 categories:
-  - topics  
+  - topics 
+  - my topic group
 tags:
   - androidlearn
 date: 2016-03-20 21:50

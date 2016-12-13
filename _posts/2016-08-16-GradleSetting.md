@@ -1,8 +1,9 @@
 ---
 title: Gradle多渠道打包(动态设定App名称，应用图标，替换常量，更改包名，变更渠道)
-permalink: /topics/
+permalink: /topics/my topic group/
 categories:
   - topics  
+  - my topic group
 tags:
   - androidlearn
 date: 2016-08-16 10:51
