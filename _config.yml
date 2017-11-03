@@ -19,7 +19,7 @@ owner:
   url: http://wing-li.github.io
 first_published: 2015 # if migrating another site, the year of your first publish
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://wing-li.github.io" # the base hostname & protocol for your site
+url: "http://lylyl.cn" # the base hostname & protocol for your site
 
 # on landing page
 # - set the greeting only if you want to display the first green section
