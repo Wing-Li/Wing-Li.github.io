@@ -5,7 +5,7 @@ layout: default
     <div class="inner{% if page.options contains 'fullwidth' %} fullwidth{% endif %}">{%
       unless site.navlinks == 'none'
 %}{%    if page.categories contains 'works'
-%}{%      assign idxperma = '/works/' | prepend: site.baseurl
+%}{%      assign idxperma = '/随笔/' | prepend: site.baseurl
 %}{%      assign idxtitle = 'Works Index'
 %}{%      assign idxbutton = 'Index'
 %}{%      include fn_groupsort_reverse.html unsorted=site.categories.works groupby='priority' sortby='date'
@@ -29,11 +29,11 @@ layout: default
 %}{%    endif
 %}{%  endif
 %}{%  unless page.options contains 'minihead' %}
-      <span id="post-date">{{ page.date  | date: "%-d %B %Y" }}</span><hr
+      <span id="post-date">{{ page.date  | date: "%Y %m %d" }}</span><hr
         style="margin-top:3px;" />{%
       endunless
 %}{%  if page.categories contains 'works' and page.tags %}
-      <h4>Skills</h4>
+      <h4>标签</h4>
   {%    assign work = page
 %}{%    include techlist.html %}
   {%  endif
