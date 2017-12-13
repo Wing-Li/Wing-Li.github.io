@@ -25,7 +25,7 @@ url: "http://lylyl.cn" # the base hostname & protocol for your site
 # - set the greeting only if you want to display the first green section
 greeting:
   title: 愿你相信
-  text:每一个 不曾起舞的日子，都是 对生命的辜负。
+  text: 每一个 不曾起舞的日子，都是 对生命的辜负。
 # - title for your blog's featured posts
 features-title: Featured topics
 # - displayed at the bottom
