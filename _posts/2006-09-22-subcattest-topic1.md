@@ -4,7 +4,6 @@ excerpt: first topic in my neat grouping
 permalink: /topics/my topic group/
 categories:
   - topics
-  - my topic group
 tag: Android
 date: 2006-09-22 00:00
 ---
