@@ -76,7 +76,9 @@
               <div class="content">
                 <a href="{{ my_page.url | prepend:site.baseurl }}">
                 <h2>{{ my_page.title }}</h2>
-                <p>{{ my_page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}</p>
+                <p>{{ my_page.excerpt[0] }}</p>
+                <p>{{ my_page.excerpt[1] }}</p>
+                <p>{{ my_page.excerpt[2] }}</p>
                 </a>
               </div>
             </section>{%
