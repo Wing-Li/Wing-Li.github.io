@@ -30,20 +30,17 @@ background-image: pic01.jpg
       endif %}
   <hr style="margin:1em 0 1em 0;" />
 
-    <ul style="list-style-type: none;">{%
-      assign p = '9999'
-%}{%  for post in site.categories.topics
-%}{%    assign n = post.date | date: "%Y"
-%}{%    if n != p
-%}{%      assign p = n
-%}
-      <br /><h5>{{ n }}</h5>{%
-        endif %}
-      <li style="padding-bottom: 6px;"><code>[{{ post.date | date: "%m-%d" }}]</code>&nbsp;
-        <a href="{{ post.url | prepend: site.baseurl }}" style="white-space: nowrap;"><b>{{ post.title }}</b></a>&nbsp;
-          {{ post.excerpt | strip_html | truncatewords: 12 }}</li>{%
-      endfor
-%}
+    <ul style="list-style-type: none;">
+  {% for tag in site.tags %}
+     <br /><h5>{{ tag[0] }}</h5>
+  {%  for post in site.categories.topics %}
+  {%    if tag[0] == post.tag %}
+            <li style="padding-bottom: 6px;"><code>[{{ post.date | date: "%Y-%m-%d" }}]</code>&nbsp;
+                <a href="{{ post.url | prepend: site.baseurl }}" style="white-space: nowrap;"><b>{{ post.title }}</b></a>&nbsp;
+                {{ post.excerpt | strip_html | truncatewords: 12 }}</li>
+        {% endif %}
+  {%  endfor %}
+  {% endfor %}
     </ul>
 
 {%  endif %}

@@ -4,10 +4,6 @@ title: Project Z
 excerpt: An example of d and e
 categories: works
 background-image: works-sample.png
-tags:
-  - This
-  - That
-  - The other
 ---
 
 #### Results

@@ -4,10 +4,6 @@ title: Project X
 excerpt: An example of a and b
 categories: works
 background-image: works-sample.png
-tags:
-  - This
-  - That
-  - The other
 ---
 
 #### Results
