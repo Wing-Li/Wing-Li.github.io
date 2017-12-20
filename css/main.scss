@@ -105,7 +105,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		letter-spacing: _size(letter-spacing-alt);
 		line-height: 1em;
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
-		text-transform: uppercase;
+		text-transform: none;
 
 		code {
 			text-transform: none;
@@ -118,37 +118,37 @@ $baseurl: '{{ site.baseurl }}/images';
 	}
 
 	h2 {
-		font-size: _font(hdr-size-xlarge);
+		font-size: 1.7em;
 		line-height: 1.75em;
 
 		@include breakpoint(small) {
-			font-size: _font(hdr-size-large);
+			font-size: 1.7em;
 			line-height: 1.65em;
 		}
 	}
 
 	h3 {
-		font-size: _font(hdr-size-normal);
+		font-size: 1.5em;
 		line-height: _font(hdr-lheight-large);
 
 		@include breakpoint(small) {
-			font-size: _font(hdr-size-small);
+			font-size: 1.5em;
 			line-height: _font(hdr-lheight-normal);
 		}
 	}
 
 	h4 {
-		font-size: _font(hdr-size-small);
+		font-size: 1.4em;
 		line-height: _font(hdr-lheight-small);
 	}
 
 	h5 {
-		font-size: _font(hdr-size-xsmall);
+		font-size: 1.3em;
 		line-height: _font(hdr-lheight-small);
 	}
 
 	h6 {
-		font-size: _font(hdr-size-xxsmall);
+		font-size: 1.2em;
 		line-height: _font(hdr-lheight-small);
 	}
 
