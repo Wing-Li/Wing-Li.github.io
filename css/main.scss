@@ -174,6 +174,10 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 	}
 
+	img{
+		width: 100%;
+	}
+
   article .inner {
   	/*
   	// If choosing serif font for headers
