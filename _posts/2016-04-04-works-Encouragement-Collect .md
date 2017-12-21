@@ -14,7 +14,7 @@ categories: works
 鸡汤既然存在就该有它的价值。
 这就是此文的缘由，收集一些励志的文章，在无所事事的时候，翻一两篇来看。
 
-> **鸡汤不适多看!!!** 因为没用
+**鸡汤不适多看!!!  因为没用**
 
 
 点击标题进入文章。
@@ -65,7 +65,7 @@ categories: works
 > ### 懂得很多道理只是前提，决定你能不能过好这一生的，是你的选择和行动。
 
 <br /><br /><br />
-***
+<hr />
 
 
 ![你不会知道，未来的你有多强大](http://upload-images.jianshu.io/upload_images/1689895-a680c97a9ae7b35f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
