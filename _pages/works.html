@@ -26,7 +26,7 @@ if site.categories.works %}
 %}{%  for work in sorted_list %}
       <tr>
         <td><b><a href="{{ work.url | prepend: site.baseurl }}">{{ work.title }}</a></b></td>
-        <td>{{ work.date | date: "%Y %m" }}</td>
+        <td>{{ work.date | date: "%Y-%m-%d" }}</td>
         <td>{{ strip_html | truncatewords: 12 }}</td>
         <td>
           {% include techlist.html %}
