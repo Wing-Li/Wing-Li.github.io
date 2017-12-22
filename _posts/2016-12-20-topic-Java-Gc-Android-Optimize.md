@@ -1,6 +1,6 @@
 ---
-title: Android手机连接编译器失败，端口号被占用
-excerpt: 编译
+title: Java gc(垃圾回收机制)小结
+excerpt: 以及Android优化建议
 categories:
   - topics
 tag: 扩展了解  

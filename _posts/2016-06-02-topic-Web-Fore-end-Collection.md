@@ -22,31 +22,31 @@ tag: 资料整理
  
 ### CDN 资源库
 国内
-[Bootstrap中文网开源项目免费 CDN 服务](http://www.bootcdn.cn/)
-[360网站卫士常用前端公共库CDN服务](http://libs.useso.com/)
-[百度静态资源公共库](http://cdn.code.baidu.com/)
-[新浪云计算CDN公共库](http://lib.sinaapp.com/)
-[又拍云JS库加速服务](http://jscdn.upai.com/)
-[七牛云存储 开放静态文件CDN](http://www.staticfile.org/)
+[Bootstrap中文网开源项目免费 CDN 服务](http://www.bootcdn.cn/) <br />
+[360网站卫士常用前端公共库CDN服务](http://libs.useso.com/) <br />
+[百度静态资源公共库](http://cdn.code.baidu.com/) <br />
+[新浪云计算CDN公共库](http://lib.sinaapp.com/) <br />
+[又拍云JS库加速服务](http://jscdn.upai.com/) <br />
+[七牛云存储 开放静态文件CDN](http://www.staticfile.org/) <br />
 [前端公共库CDN加速-静态资源公共库,免费CDN公共库](http://cdnjs.net/)
 
 国外
-[cdnjs.com - The free and open source CDN for web related libraries to speed up your website!](https://cdnjs.com/)
-[Microsoft ASP.net CDN](http://www.asp.net/ajax/cdn)
-[Google Hosted Libraries](https://developers.google.com/speed/libraries/)
+[cdnjs.com - The free and open source CDN for web related libraries to speed up your website!](https://cdnjs.com/) <br />
+[Microsoft ASP.net CDN](http://www.asp.net/ajax/cdn) <br />
+[Google Hosted Libraries](https://developers.google.com/speed/libraries/) <br />
 [jsDelivr - A free super-fast CDN for developers and webmasters](http://www.jsdelivr.com/)
 
  
 ### 在线开发系列
-[Create a new fiddle - JSFiddle](https://jsfiddle.net/)
-[RunJS - 在线编辑、展示、分享、交流你的 JavaScript 代码](http://runjs.cn/)
+[Create a new fiddle - JSFiddle](https://jsfiddle.net/) <br />
+[RunJS - 在线编辑、展示、分享、交流你的 JavaScript 代码](http://runjs.cn/) <br />
 [JSRun javascript在线编辑器，支持scss编译 - JSRun](http://jsrun.net/)
 
  
 ### 大前端小工具
 #### Bootstrap系
 栅格系统定制工具
-[Shoelace - Visual Bootstrap 3 Grid Builder](http://shoelace.io/)
+[Shoelace - Visual Bootstrap 3 Grid Builder](http://shoelace.io/) <br />
 [Bootstrap Interface Builder | LayoutIt!](http://www.layoutit.com/build)
 
 #### CSS相关系列
@@ -59,18 +59,18 @@ Sass编译器
 
  
 CSS生成器
-[CSS3 Generator by Pascal von Seth (Pascal-Seven Webdesign from Hamburg)](http://css3.pascal-seven.de/)
-[CSS3 Generator - By Peter Funk & Eric Hoffman](http://www.css3.me/)
-[Create CSS3 - Easy CSS3 Generator & SASS Compass CSS3 Generator](http://www.createcss3.com/)
+[CSS3 Generator by Pascal von Seth (Pascal-Seven Webdesign from Hamburg)](http://css3.pascal-seven.de/) <br />
+[CSS3 Generator - By Peter Funk & Eric Hoffman](http://www.css3.me/) <br />
+[Create CSS3 - Easy CSS3 Generator & SASS Compass CSS3 Generator](http://www.createcss3.com/) <br />
 [CSS3 Playground by Mike Plate](http://css3.mikeplate.com/)
 
 CSS3属性
-[CSS 属性查询](http://cssvalues.com/)
+[CSS 属性查询](http://cssvalues.com/) <br />
 [CSS3 兼容性检测](http://caniuse.com/)
 
  
 CSS3动画
-[CSS3 Keyframes Animation Generator](http://cssanimate.com/)
+[CSS3 Keyframes Animation Generator](http://cssanimate.com/) <br />
 [CSS Load](http://cssload.net/)
 
  
@@ -83,7 +83,7 @@ CSS单位尺
 
  
 按钮一键生成
-[CSS Button Generator: Create HTML and CSS Button Styles](http://www.bestcssbuttongenerator.com/)
+[CSS Button Generator: Create HTML and CSS Button Styles](http://www.bestcssbuttongenerator.com/) <br />
 [CSS Button Generator | Create CSS3 buttons with our CSS button maker](http://www.cssbuttongenerator.com/)
 
  
@@ -98,18 +98,18 @@ CSS单位尺
 
  
 在线Ｐ图
-[ps在线版 Photoshop在线精简版](http://www.uupoop.com/)
+[ps在线版 Photoshop在线精简版](http://www.uupoop.com/) <br />
 [AlloyImage](http://alloyteam.github.io/AlloyPhoto/)
 
  
 字体识别
-[识字体:图片识别字体 - 工具 - 字客网](http://www.fontke.com/likefont/)
-[字体下载-求字体网提供中文和英文字体库下载、识别与预览服务，找字体的好帮手](http://www.qiuziti.com/)
+[识字体:图片识别字体 - 工具 - 字客网](http://www.fontke.com/likefont/) <br />
+[字体下载-求字体网提供中文和英文字体库下载、识别与预览服务，找字体的好帮手](http://www.qiuziti.com/) <br />
 [What Font is | WhatFontis.com](http://www.whatfontis.com/)
 
  
 小图合并
-[GoPng](http://alloyteam.github.io/gopng/)
+[GoPng](http://alloyteam.github.io/gopng/) <br />
 [Free CSS Sprite Generator based on website URL or images - by SCHERP Ontwikkeling](http://www.freespritegenerator.com/)
 
  
