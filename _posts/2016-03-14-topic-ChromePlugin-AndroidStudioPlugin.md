@@ -1,9 +1,9 @@
 ---
-title: Chrome插件、AndroidStudio插件
-excerpt: 记录一些自己的开发习惯，Chrome插件、AndroidStudio插件及设置格式迁移
+title: 记录一些自己的开发习惯，Chrome插件、AndroidStudio插件及设置格式迁移
+excerpt: 配置新电脑
 categories:
   - topics
-tag: 开发习惯  
+tag: 开发习惯
 date: 2016-03-14 12:47
 background-image: works-sample.png
 ---

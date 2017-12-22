@@ -1,5 +1,6 @@
 ---
 title: HTTP协议中，除了GET和POST还有什么请求？
+excerpt: HTTP协议不常用的请求
 categories:
   - topics
 tag: 扩展了解  

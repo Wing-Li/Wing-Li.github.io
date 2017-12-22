@@ -1,9 +1,9 @@
 ---
 title: AndroidStudio基本设置
-excerpt: AndroidStudio基本设置，以及一些使用小技巧
+excerpt: 以及一些使用小技巧
 categories:
   - topics
-tag: 开发习惯  
+tag: 开发习惯
 date: 2016-03-17 18:05
 background-image: works-sample.png
 ---
