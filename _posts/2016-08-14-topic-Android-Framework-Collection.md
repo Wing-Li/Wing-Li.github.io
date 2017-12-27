@@ -269,10 +269,51 @@ https://github.com/l123456789jy/Lazy <br />
 [android图标(可在线切图)](https://romannurik.github.io/AndroidAssetStudio/index.html)
 
 ## Android 面试
+[程序员面试技巧总结](http://www.codeceo.com/article/programmer-interview-tips.html#0-tsina-1-91765-397232819ff9a47a7b7e80a40613cfe1) <br />
 [Android 名企面试题及涉及知识点整理](https://github.com/helen-x/AndroidInterview) <br />
 [史上最全 Android 面试资料集合](http://www.jianshu.com/p/d1efe2f31b6d) <br />
 [亲爱的面试官，这个我可没看过！](http://www.jianshu.com/p/89f19d67b348) <br />
-[写好一份技术简历很重要](http://www.jianshu.com/p/99f890ef36d4)
+[写好一份技术简历很重要](http://www.jianshu.com/p/99f890ef36d4) <br />
+[2017 Android秋招面试总结](https://www.jianshu.com/p/1149636d841a) <br />
+[国内一线互联网公司内部面试题库](https://github.com/JackyAndroid/AndroidInterview-Q-A/blob/master/README-CN.md)
+<br />
+
+> 你对编码认知。你是否知道如何编写好代码？ <br />
+> 个人能力/领导力。你是否经历过整个工作流程？你是否修复过并不怎么正确的东西，即使你并不需要这么去做？ <br />
+> 沟通。和你交流技术问题是有用的还是痛苦的？ <br />
+> 你应该至少说明以下中的一个： <br />
+> 
+> 你曾解决的一个有趣的技术问题 <br />
+> 你曾克服的一个人际冲突 <br />
+> 显示领导力或个人能力的例子 <br />
+> 你曾在以往项目中做出的贡献 <br />
+> 最喜欢的语言的一些琐事，对这种语言你做了什么，以及你不喜欢它哪里 <br />
+> 有关公司产品/业务的问题 <br />
+> 关于该公司的工程策略（测试，Scrum，等等） <br />
+> 
+> 
+> 作为软件工程师的基础能力，包括：SOLID 原则，clean code，应用程序架构，测试。数据结构和算法同样很重要，但是我不会因为候选人不会平衡 BST 就拒掉他。我更看重的是候选人是否理解了基础数据结构（Lists, Queues, Trees, Hash Maps…），理解 Big-O 说明并能够讲解时间复杂度和空间复杂度的权衡。看到没？就是这些基础知识。
+> 
+> 理解并发。为了让 App 能够快速响应用户的操作，所以一定不能在主线程执行耗时任务。也就是说，很多任务需要去独立的线程去执行。如果候选人不懂并发，那迟早会在未来的工作中，甚至生产环境下掉坑。
+> 
+> 能够在白纸上画出 Android 的大体架构图；
+> 
+> 能够大体描述清点击 Android Studio 的 build 按钮后发生了什么；
+> 
+> 能够大体说清一个应用程序安装到手机上时发生了什么；
+> 
+> 对 Dalvik、ART 虚拟机有基本的了解；
+> 
+> Android 上的 Inter-Process-Communication 跨进程通信时如何工作的；
+> 
+> App 是如何沙箱化，为什么要这么做；
+> 
+> 权限管理系统（底层的权限是如何进行 grant 的）；
+> 
+> 进程和 Application 的生命周期；
+> 
+> 还有一个好的方法就是深入地探究候选人擅长的一个领域，比如他擅长 UI，那就多问一些 UI 方面的问题
+
 <br />
 
 ## 简历
