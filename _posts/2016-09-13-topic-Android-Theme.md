@@ -117,7 +117,7 @@ tag: Android
 
 到此，就可以实现一个最基本的切换主题了，这样也是会有一个问题，也就是闪屏。<br />
 但是如果要求不是很高，这也是可以满足需求的。
-**此项目代码：
+**此项目代码：<br />
 [https://github.com/Wing-Li/AndroidPractice/tree/master/ThemeChange](https://github.com/Wing-Li/AndroidPractice/tree/master/ThemeChange)**
 
 <hr />

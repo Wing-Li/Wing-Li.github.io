@@ -185,7 +185,7 @@ tag: Android
 
 <br />
 **注意：**
-1. wrappingLinearLayoutManager.setAutoMeasureEnabled(false);<br /><br />
+1. wrappingLinearLayoutManager.setAutoMeasureEnabled(false);<br />
 如果导入的包是  Android Support Library 23.2.0  以上的，需要加这句。<br />
 2. RecyclerHot.setNestedScrollingEnabled(false);<br />
 在这里setNestedScrollingEnabled（false）禁用滚动为RecyclerView，它不会拦截从NestedScrollView滚动事件。<br />

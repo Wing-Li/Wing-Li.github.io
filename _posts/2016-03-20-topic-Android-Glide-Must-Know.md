@@ -198,7 +198,7 @@ Gilde 截取视频指定时间的屏幕，这的时间千万千万要注意，�
 
 以上是我自己选出的一些觉得经常用到的，还会更新。
 
-**想要看更详细的 Glide 介绍可以看看这里：**
+**想要看更详细的 Glide 介绍可以看看这里：**<br />
 http://blog.csdn.net/guolin_blog/article/details/78582548
 
 

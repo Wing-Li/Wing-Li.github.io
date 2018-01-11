@@ -51,7 +51,7 @@ WebView在现在的项目中使用的频率应该还是非常高的。<br />
     setMinimumFontSize(12);//设置 WebView 支持的最小字体大小，默认为 8
 
 <br />
-***
+<hr />
 
 ### 关于缓存
 #####缓存模式
@@ -78,7 +78,7 @@ LOAD_CACHE_ELSE_NETWORK，只要本地有，无论是否过期，或者no-cache�
 **注意：** 每个 Application 只调用一次 WebSettings.setAppCachePath()，WebSettings.setAppCacheMaxSize()
 
 <br />
-***
+<hr />
 
 ### 加载方式
 **加载一个网页：**
@@ -93,7 +93,7 @@ webView.loadUrl("content://com.android.htmlfileprovider/sdcard/test.html");
 ### 添加 HTTP 请求头(Header)
 loadUrl(String url, Map<String, String> additionalHttpHeaders)
 <br />
-***
+<hr />
 
 ### WebViewClient
 **WebViewClient就是帮助WebView处理各种通知、请求事件的。**
@@ -159,7 +159,7 @@ WebViewClient方法
       webView.setWebViewClient(mWebViewClient);
 
 <br />
-***
+<hr />
 
 ### WebChromeClient
 **WebChromeClient是辅助WebView处理Javascript的对话框，网站图标，网站title，加载进度等 :**
@@ -227,7 +227,7 @@ WebViewClient方法
       webView.setWebChromeClient(mWebChromeClient);
 
 <br />
-***
+<hr />
 
 ### WebView 的一些方法
 
@@ -276,7 +276,7 @@ getContentHeight()返回的是整个html的高度,但并不等同于当前整个
         }
 
 <br />
-***
+<hr />
 
 ### 返回键
 返回上一次浏览的页面
@@ -290,7 +290,7 @@ getContentHeight()返回的是整个html的高度,但并不等同于当前整个
     }
 
 <br />
-***
+<hr />
 
 ### 调用JS代码
 
@@ -344,7 +344,7 @@ Android 调用js有个漏洞：
 http://blog.csdn.net/leehong2005/article/details/11808557
 
 <br />
-***
+<hr />
 ### 在 WebView 中长按保存图片
 
 ##### 1. 给 WebView添加监听
@@ -426,7 +426,7 @@ WebView.HitTestResult.EDIT_TEXT_TYPE    选中的文字类型
 
 
 <br />
-***
+<hr />
 
 ### Android5.0 WebView中Http和Https混合问题
 **在Android 5.0上 Webview 默认不允许加载 Http 与 Https 混合内容：**
@@ -449,7 +449,7 @@ MIXED_CONTENT_COMPATIBILITY_MODE：当涉及到混合式内容时，WebView 会�
 文章里有：**设置 WebView 接受所有网站的证书**
 
 <br />
-***
+<hr />
 
 ### Cookie 相关
 之前同步 cookie 需要用到 CookieSyncManager 类，现在这个类已经被抛弃了。如今 WebView 已经可以在需要的时候自动同步 cookie 了，所以不再需要创建 CookieSyncManager 类的对象来进行强制性的同步 cookie 了。现在只需要获得 CookieManager 的对象将 cookie 设置进去就可以了。
@@ -511,7 +511,7 @@ MIXED_CONTENT_COMPATIBILITY_MODE：当涉及到混合式内容时，WebView 会�
     }
 
 <br />
-***
+<hr />
 
 ### 避免WebView内存泄露的一些方式
 1.可以将 Webview 的 Activity 新起一个进程，结束的时候直接System.exit(0);退出当前进程；
@@ -560,7 +560,7 @@ MIXED_CONTENT_COMPATIBILITY_MODE：当涉及到混合式内容时，WebView 会�
         }
 
 <br />
-***
+<hr />
 <br />
 
 有一个非常不错的 Html5Activity 加载类帖出来：
