@@ -1,6 +1,6 @@
 ---
 title: FileProvider 共享文件、缓存
-excerpt: Android 推荐
+excerpt: Android 推荐 
 categories:
   - topics
 tag: Android  
@@ -77,7 +77,7 @@ paths 可以添加多个子路径：
 
 
 ##### 3.然后就可以通过URI访问app 的文件了
-      content://com.example.myapp.fileprovider/myimages/default_image.jpg
+    content://com.example.myapp.fileprovider/myimages/default_image.jpg
 
 可以看到：<br />
 com.example.myapp.fileprovider：前面是我们在AndroidManifest.xml中指定的；<br />
@@ -86,12 +86,12 @@ default_image.jpg：就是我们想要访问的图片了。
 
 **例如，我看到到这个项目，分享的是缓存路径下的图片，然后用Uri让系统的壁纸来打开自己项目的图片。**
 
-            //得到缓存路径的Uri
-            Uri contentUri = FileProvider.getUriForFile(getActivity(), "com.android.ted.gank.fileprovider", file);
-            //壁纸管理的意图
-            Intent intent = WallpaperManager.getInstance(getActivity()).getCropAndSetWallpaperIntent(contentUri);
-            //开启一个Activity显示图片，可以将图片设置为壁纸。调用的是系统的壁纸管理。
-            getActivity().startActivityForResult(intent, ViewerActivity.REQUEST_CODE_SET_WALLPAPER);
+    //得到缓存路径的Uri
+    Uri contentUri = FileProvider.getUriForFile(getActivity(), "com.android.ted.gank.fileprovider", file);
+    //壁纸管理的意图
+    Intent intent = WallpaperManager.getInstance(getActivity()).getCropAndSetWallpaperIntent(contentUri);
+    //开启一个Activity显示图片，可以将图片设置为壁纸。调用的是系统的壁纸管理。
+    getActivity().startActivityForResult(intent, ViewerActivity.REQUEST_CODE_SET_WALLPAPER);
 
 <hr />
 
