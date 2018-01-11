@@ -1,6 +1,6 @@
 ---
-title: FileProvider共享文件、缓存
-excerpt: 
+title: FileProvider 共享文件、缓存
+excerpt: Android 推荐
 categories:
   - topics
 tag: Android  
@@ -63,25 +63,25 @@ tag: Android
 	<paths>
 	    <files-path path="images/" name="myimages" />
 	</paths>
+	
+	其中属性的意思：
+    path=“images/” 就是你所要共享的文件路径。
+    name="myimages" 就是告诉FileProvider 用 myimages 添加进URIs 内容字段去访问 files/images/ 的子目录。
 
 在这个文件中，为每个目录添加一个XML元素指定目录。
 paths 可以添加多个子路径：
- <files-path> 分享app内部的存储；
- <external-path> 分享外部的存储；
- <cache-path> 分享内部缓存目录。(我遇到的就是分享的缓存)
 
-其中属性的意思：
- path=“images/” 就是你所要共享的文件路径。
- name="myimages" 就是告诉FileProvider 用 myimages 添加进URIs 内容字段去访问 files/images/ 的子目录。
-
+    <files-path> 分享app内部的存储；
+    <external-path> 分享外部的存储；
+    <cache-path> 分享内部缓存目录。(我遇到的就是分享的缓存)
 
 
 ##### 3.然后就可以通过URI访问app 的文件了
       content://com.example.myapp.fileprovider/myimages/default_image.jpg
 
-可以看到：
-com.example.myapp.fileprovider：前面是我们在AndroidManifest.xml中指定的；
-myimages：是我们指定的 name；
+可以看到：<br />
+com.example.myapp.fileprovider：前面是我们在AndroidManifest.xml中指定的；<br />
+myimages：是我们指定的 name；<br />
 default_image.jpg：就是我们想要访问的图片了。
 
 **例如，我看到到这个项目，分享的是缓存路径下的图片，然后用Uri让系统的壁纸来打开自己项目的图片。**
