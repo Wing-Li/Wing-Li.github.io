@@ -137,29 +137,6 @@ https://github.com/XX-net/XX-Net
 
 还有lantren，这个不知道是人品问题，还是什么原因总有错误。
 
-#### 0. 注册 AWS ，创建 EC2 ，链接 EC2 ，全教程：
-http://blog.csdn.net/bwlab/article/details/48138197
-
-(将 shdwoc 恢复为原名称)
-#### 1. 安装 shdwoc-libev：
-官网：https://github.com/shdwoc/shdwoc-libev
-博客1：http://blog.topspeedsnail.com/archives/8197
-博客2：https://okayjam.com/index.php/2017/06/05/shdwoc-%E5%AE%89%E8%A3%85%EF%BC%88ubuntu-centsos-%E5%92%8C-%E5%85%B6%E4%BB%96linux-%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%EF%BC%89/
-
-#### 2. 在 EC2 实例 设置安全组，自定义规则，设置刚才配置文件里的端口号
-设置完之后，就可以链接了。
-
-
-#### 3. 配置混淆
-
-##### 3.1 官网教程：https://github.com/shdwoc/simple-obfs
-
-##### 3.2 执行 ./autogen.sh && ./configure 遇到的问题：
-https://github.com/shdwoc/shdwoc-libev/issues/1177
-
-##### 3.3混淆安装结束之后需要配置：(最底下)
-https://teddysun.com/511.html
-
 
 ### 开发工具
  
