@@ -1,3 +1,13 @@
+---
+title: 记录一些自己的开发习惯，Chrome插件、AndroidStudio插件及设置格式迁移
+excerpt: 配置新电脑
+categories:
+  - topics
+tag: 开发习惯
+date: 2016-03-14 12:47
+background-image: works-sample.png
+---
+
 > 如果本文帮助到你，本人不胜荣幸，如果浪费了你的时间，本人深感抱歉。
 希望用最简单的大白话来帮助那些像我一样的人。如果有什么错误，请一定指出，以免误导大家、也误导我。
 本文来自：http://www.jianshu.com/users/320f9e8f7fc9/latest_articles
@@ -131,7 +141,7 @@ Android中的序列化有两种方式，分别是实现Serializable接口和Parc
 **关于插件，有个超级全的整理：**[Android Studio插件整理](http://mp.weixin.qq.com/s?__biz=MzI3MDE0NzYwNA==&mid=2651433634&idx=1&sn=e5f65d8a0a2b85f7c22d8ccd4cf96a39&scene=23&srcid=0721vQcDls3Ak34dZY1y3h7o#rd)
 
  
-### 至于fan qiang
+### 至于fan q
  
 https://github.com/XX-net/XX-Net
 
