@@ -1,13 +1,3 @@
----
-title: 记录一些自己的开发习惯，Chrome插件、AndroidStudio插件及设置格式迁移
-excerpt: 配置新电脑
-categories:
-  - topics
-tag: 开发习惯
-date: 2016-03-14 12:47
-background-image: works-sample.png
----
-
 > 如果本文帮助到你，本人不胜荣幸，如果浪费了你的时间，本人深感抱歉。
 希望用最简单的大白话来帮助那些像我一样的人。如果有什么错误，请一定指出，以免误导大家、也误导我。
 本文来自：http://www.jianshu.com/users/320f9e8f7fc9/latest_articles
@@ -19,9 +9,9 @@ background-image: works-sample.png
 虽然这种比较便捷的种种插件，各类大牛都已经写过很多文章了，但是毕竟每个人都有自己的习惯。
 **此文仅仅是为了记录自己的习惯，会一直补充。**
 
-<br />
+ 
 ### Chrome插件
-<br />
+ 
 
 ###### 1. smartUp 手势操作
 [下载地址](https://chrome.google.com/webstore/detail/smartup-gestures/bgjfekefhjemchdeigphccilhncnjldn)
@@ -69,9 +59,9 @@ FireShot可以截取各种形式的图片，整张截图、可视部分的、选
 我们帮助使互联网快一点点！该方案采用特殊的缓存技术，并阻止额外的网络请求可以减缓你的经验。由于我们的节目学习您的浏览模式将开始更好地工作。你会发现一个小的速度增加，在第一次，它会随着时间的推移。
 [](http://chromecj.com/Content/kindeditor/attached/image/20160626/20160626221830_5156.png)
 
-<br />
+ 
 ### Android studio插件
-<br />
+ 
 
 ###### 1. ButterKnife
 作用：ButterKnife注解想必都用过，安装ButterKnife插件，快速生成findViewById。
@@ -118,9 +108,9 @@ Android中的序列化有两种方式，分别是实现Serializable接口和Parc
 ![](http://upload-images.jianshu.io/upload_images/1689895-1c7b15fcc67d8f2a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
-<br />
+ 
 ### Android studio设置格式
-<br />
+ 
 具体的格式设置在这个文章：[AndroidStudio基本设置](http://www.jianshu.com/p/535901c7459f)
 这里介绍一个更换电脑时，快速拷贝之前已经设置好的studio格式。
 
@@ -135,21 +125,44 @@ Android中的序列化有两种方式，分别是实现Serializable接口和Parc
 
 ![](http://upload-images.jianshu.io/upload_images/1689895-a8d1098d3edbbfaa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-<br /><br />
+  
 **另外写了一篇专门针对studio的各种内容可以看看：[AndroidStudio基本设置，以及一些使用小技巧](http://www.jianshu.com/p/535901c7459f)**
 
 **关于插件，有个超级全的整理：**[Android Studio插件整理](http://mp.weixin.qq.com/s?__biz=MzI3MDE0NzYwNA==&mid=2651433634&idx=1&sn=e5f65d8a0a2b85f7c22d8ccd4cf96a39&scene=23&srcid=0721vQcDls3Ak34dZY1y3h7o#rd)
 
-<br />
+ 
 ### 至于fan qiang
-<br />
+ 
 https://github.com/XX-net/XX-Net
 
 还有lantren，这个不知道是人品问题，还是什么原因总有错误。
 
-<br />
+#### 0. 注册 AWS ，创建 EC2 ，链接 EC2 ，全教程：
+http://blog.csdn.net/bwlab/article/details/48138197
+
+(将 shdwoc 恢复为原名称)
+#### 1. 安装 shdwoc-libev：
+官网：https://github.com/shdwoc/shdwoc-libev
+博客1：http://blog.topspeedsnail.com/archives/8197
+博客2：https://okayjam.com/index.php/2017/06/05/shdwoc-%E5%AE%89%E8%A3%85%EF%BC%88ubuntu-centsos-%E5%92%8C-%E5%85%B6%E4%BB%96linux-%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%EF%BC%89/
+
+#### 2. 在 EC2 实例 设置安全组，自定义规则，设置刚才配置文件里的端口号
+设置完之后，就可以链接了。
+
+
+#### 3. 配置混淆
+
+##### 3.1 官网教程：https://github.com/shdwoc/simple-obfs
+
+##### 3.2 执行 ./autogen.sh && ./configure 遇到的问题：
+https://github.com/shdwoc/shdwoc-libev/issues/1177
+
+##### 3.3混淆安装结束之后需要配置：(最底下)
+https://teddysun.com/511.html
+
+
 ### 开发工具
-<br />
+ 
 常用的开发工具都在百度云盘就不一一列举了。
 
 ### 常用软件
@@ -160,5 +173,5 @@ XMind
 金山词霸
 
 
-<br /><br />
+  
 本文会一直更新。
