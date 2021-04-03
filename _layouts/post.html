@@ -27,6 +27,11 @@ layout: default
 %}{%      assign idxtitle = 'Start page'
 %}{%      assign idxbutton = 'Start'
 %}{%      assign sorted_list = site.empty_array
+%}{%      for topic in site.categories.projects
+%}{%        if topic.categories.last == page.categories.last
+%}{%          assign sorted_list = sorted_list | push: project
+%}{%        endif
+%}{%      endfor
 %}{%    endif
 %}{%  endunless
 %}{%  if sorted_list
