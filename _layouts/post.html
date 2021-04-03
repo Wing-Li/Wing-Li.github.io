@@ -32,7 +32,7 @@ layout: default
 %}{%          assign sorted_list = sorted_list | push: project
 %}{%        endif
 %}{%      endfor
-%}{%      assign sorted_list = sorted_list
+%}{%      assign sorted_list = sorted_list | sort: 'date'
 %}{%    endif
 %}{%  endunless
 %}{%  if sorted_list
