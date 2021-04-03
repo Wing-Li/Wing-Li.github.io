@@ -2,7 +2,7 @@
 title: FileProvider 共享文件、缓存
 excerpt: Android 推荐 
 categories:
-  - project
+  - projects
 tag: Android  
 ---
 
