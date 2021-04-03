@@ -3,44 +3,40 @@ key: 3
 title: 历史项目
 permalink: /projects/
 excerpt:
-    - 将自己之前做过的项目进行一个整理
-    - 因为项目太多，只选取比较有代表性的（不整理不知道，一整理吓一跳，做过的项目竟然这么多）
-    - 基本上所有的项目都是独立完成的
+- 将自己之前做过的项目进行一个整理
+- 因为项目太多，只选取比较有代表性的（不整理不知道，一整理吓一跳，做过的项目竟然这么多）
+- 基本上所有的项目都是独立完成的
 image: pic01.jpg
 background-image: pic01.jpg
 ---
-{%  if site.posts %}{%
-if site.tags.featured %}
-<hr style="margin:0 0 1em 0;" />
-<h4>Top</h4>
-<ul class="post-list">{%
-    for post in site.categories.projects %}{%
-    if post.tags contains "featured" %}
-    <li>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-            <div class="container">
-                <p class="post-title">{{ post.title }}</p>
-                <p class="post-desc">{{ post.excerpt | strip_html | truncatewords: 12 }}</p>
-            </div>
-        </a>
-    </li>{%
-    endif %}{%
-    endfor %}
-</ul>{%
-endif %}
-<hr style="margin:1em 0 1em 0;" />
-
 <ul style="list-style-type: none;">
-    {% for tag in site.tags %}
-    <br /><h5>{{ tag[0] }}</h5>
-    {%  for post in site.categories.projects %}
-    {%    if tag[0] == post.tag %}
-    <li style="padding-bottom: 6px;"><code>[{{ post.date | date: "%Y-%m-%d" }}]</code>&nbsp;
-        <a href="{{ post.url | prepend: site.baseurl }}" style="white-space: nowrap;"><b>{{ post.title }}</b></a>&nbsp;
-        {{ post.excerpt | strip_html | truncatewords: 12 }}</li>
-    {% endif %}
-    {%  endfor %}
-    {% endfor %}
-</ul>
 
-{%  endif %}
+    <br><h5>公司正式线上项目（Android）</h5>
+
+    <li style="padding-bottom: 6px;">
+        <a href="/topics/topic-Android-Widget.html" style="white-space: nowrap;"><b>【Poste】</b></a>&nbsp;
+        阅读程序，可让您轻松浏览免费杂志等各种多媒体内容，并且用户可以在页面浏览我们提前埋定的图片、Gif图，音频、视频、AR内容等多媒体内容。
+    </li>
+
+
+    <li style="padding-bottom: 6px;">
+        <a href="/topics/topic-Android-Code-Collect.html" style="white-space: nowrap;"><b>【SecureSamba】</b></a>&nbsp;
+        网盘应用程序，可以随时随地查看安全SAMBA中的文件。包含文件查看、复制、移动、重命名、删除、文件共享、垃圾桶。
+    </li>
+
+
+    <br><h5>开发习惯</h5>
+
+
+    <li style="padding-bottom: 6px;"><code>[2016-03-17]</code>&nbsp;
+        <a href="/topics/topic-AndroidStudioBaseSetting.html" style="white-space: nowrap;"><b>AndroidStudio基本设置</b></a>&nbsp;
+        以及一些使用小技巧
+    </li>
+
+
+    <li style="padding-bottom: 6px;"><code>[2016-03-14]</code>&nbsp;
+        <a href="/topics/topic-ChromePlugin-AndroidStudioPlugin.html" style="white-space: nowrap;"><b>记录一些自己的开发习惯，Chrome插件、AndroidStudio插件及设置格式迁移</b></a>&nbsp;
+        配置新电脑
+    </li>
+
+</ul>
