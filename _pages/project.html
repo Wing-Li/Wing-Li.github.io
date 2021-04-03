@@ -4,40 +4,43 @@ title: 历史项目
 permalink: /project/
 excerpt:
     - 将自己之前做过的项目进行一个整理
-    - 因为项目太多，只选取比较有代表性的
-    - 基本上所有的项目都是独立完成的（即使不是，也是由我维护了很久的）
+    - 因为项目太多，只选取比较有代表性的（不整理不知道，一整理吓一跳，做过的项目竟然这么多）
+    - 基本上所有的项目都是独立完成的
 image: pic01.jpg
 background-image: pic01.jpg
 ---
-{%
-if site.social.linkedin-square %}
-<div class="table-wrapper">
-  <table class="alt"><tbody><tr><td style="text-align: center;">Visit my
-  <a target="_blank" href="{{ site.social.linkedin-square }}">LinkedIn profile</a></td>
-  </tr></tbody></table>
-</div>{%
+{%  if site.posts %}{%
+if site.tags.featured %}
+<hr style="margin:0 0 1em 0;" />
+<h4>Top</h4>
+<ul class="post-list">{%
+    for post in site.categories.project %}{%
+    if post.tags contains "featured" %}
+    <li>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            <div class="container">
+                <p class="post-title">{{ post.title }}</p>
+                <p class="post-desc">{{ post.excerpt | strip_html | truncatewords: 12 }}</p>
+            </div>
+        </a>
+    </li>{%
+    endif %}{%
+    endfor %}
+</ul>{%
 endif %}
-{%
-if site.categories.works %}
-<div class="table-wrapper">
-  <table>
-    <tbody>{%
-      include fn_groupsort_reverse.html unsorted=site.categories.works groupby='priority' sortby='date'
-%}{%  for work in sorted_list %}
-      <tr>
-        <td><b><a href="{{ work.url | prepend: site.baseurl }}">{{ work.title }}</a></b></td>
-        <td>{{ work.date | date: "%Y-%m-%d" }}</td>
-        <td>{{ strip_html | truncatewords: 12 }}</td>
-        <td>
-          {% include techlist.html %}
-        </td>
-      </tr>{%
-      endfor %}
-    </tbody>
-  </table>
-</div>{%
-  if site.works_in_progress %}
-  <div class="works_inprogress">In-progress, more to come.</div>{%
-  endif %}{%
-endif
-%}
+<hr style="margin:1em 0 1em 0;" />
+
+<ul style="list-style-type: none;">
+    {% for tag in site.tags %}
+    <br /><h5>{{ tag[0] }}</h5>
+    {%  for post in site.categories.project %}
+    {%    if tag[0] == post.tag %}
+    <li style="padding-bottom: 6px;"><code>[{{ post.date | date: "%Y-%m-%d" }}]</code>&nbsp;
+        <a href="{{ post.url | prepend: site.baseurl }}" style="white-space: nowrap;"><b>{{ post.title }}</b></a>&nbsp;
+        {{ post.excerpt | strip_html | truncatewords: 12 }}</li>
+    {% endif %}
+    {%  endfor %}
+    {% endfor %}
+</ul>
+
+{%  endif %}
