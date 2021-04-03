@@ -14,7 +14,7 @@ if site.tags.featured %}
 <hr style="margin:0 0 1em 0;" />
 <h4>Top</h4>
 <ul class="post-list">{%
-    for post in site.categories.project %}{%
+    for post in site.categories.projects %}{%
     if post.tags contains "featured" %}
     <li>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
@@ -33,7 +33,7 @@ endif %}
 <ul style="list-style-type: none;">
     {% for tag in site.tags %}
     <br /><h5>{{ tag[0] }}</h5>
-    {%  for post in site.categories.project %}
+    {%  for post in site.categories.projects %}
     {%    if tag[0] == post.tag %}
     <li style="padding-bottom: 6px;"><code>[{{ post.date | date: "%Y-%m-%d" }}]</code>&nbsp;
         <a href="{{ post.url | prepend: site.baseurl }}" style="white-space: nowrap;"><b>{{ post.title }}</b></a>&nbsp;
