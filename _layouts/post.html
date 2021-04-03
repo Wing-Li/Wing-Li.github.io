@@ -29,7 +29,7 @@ layout: default
 %}{%      assign sorted_list = site.empty_array
 %}{%      for topic in site.categories.projects
 %}{%        if topic.categories.last == page.categories.last
-%}{%          assign sorted_list = sorted_list | push: project
+%}{%          assign sorted_list = sorted_list | push: projects
 %}{%        endif
 %}{%      endfor
 %}{%      assign sorted_list = sorted_list | sort: 'date'
