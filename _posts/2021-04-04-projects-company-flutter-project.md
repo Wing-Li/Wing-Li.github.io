@@ -1,6 +1,6 @@
 ---
-title: 【blog】公司正式线上项目（Android）
-excerpt: 在公司的项目整理 
+title: 【blog】公司正式线上项目（Flutter）
+excerpt: 在公司的项目整理，都是由 Flutter 完成的，选出有代表性的。 
 categories:
   - projects
 ---
