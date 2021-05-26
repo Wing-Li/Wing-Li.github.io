@@ -16,7 +16,7 @@ categories:
 
 【图集】通过图片看尽生活百态。
 
-##### 上架平台：[Google Play (点击进入)](https://play.google.com/store/apps/details?id=com.startialab.poste) 
+##### 上架平台：[Google Play (右键，新标签页打开)](https://play.google.com/store/apps/details?id=com.startialab.poste) 
 
 
 | 主页 | 视频 | 检索 | 图集 |
@@ -33,7 +33,7 @@ categories:
 地理位置，距离，手机电量，wifi名称，屏幕关开，铃声大小.....等等各种消息。
 您还可以设置星标密友，可将密友信息显示在手机桌面上。
 
-##### 上架平台：[酷安  (点击进入)]((https://www.coolapk.com/apk/com.lyl.myallforyou))
+##### 上架平台：[酷安  (右键，新标签页打开)]((https://www.coolapk.com/apk/com.lyl.myallforyou))
 
 | 密友列表 | 设备信息 | 聊天页面 | 桌面信息 | 
 |:------:|:------:|:------:|:------:|
@@ -46,7 +46,7 @@ categories:
 每天都会更新Android、iOS、前端的技术文章，可以在闲暇之余学习到新知识，并且可以分享到其他平台； 
 还提供了一些图片，可以长按点击保存。
 
-##### 上架平台：[酷安 (点击进入)](https://www.coolapk.com/apk/com.lyl.boon)
+##### 上架平台：[酷安 (右键，新标签页打开)](https://www.coolapk.com/apk/com.lyl.boon)
 
 | 文章列表 | 文章详情 | 图片列表 | 图片列表 |
 |:------:|:------:|:------:|:------:|

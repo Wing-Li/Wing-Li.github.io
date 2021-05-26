@@ -8,7 +8,7 @@ categories:
 ## HungryUS
 HungryUS 是一个外卖类应用程序，预约式订餐软件。分为午餐、晚餐模式，包含菜品和小零食；还可团购商品，定时配送；地区新闻，及产品功能介绍；还有地址管理、订单管理、多种支付方式、用户信息管理等常见基本功能。。
 
-##### 上架平台：[Google Play  (点击进入)](https://play.google.com/store/apps/details?id=com.hungry.hungrysd17)
+##### 上架平台：[Google Play  (右键，新标签页打开)](https://play.google.com/store/apps/details?id=com.hungry.hungrysd17)
 
 | - |- | - | 
 |:------:|:------:|:------:|
@@ -31,7 +31,7 @@ Poste 是一个阅读程序，可让您轻松浏览免费杂志等各种多媒�
 
 【通知】您可以接收站点发送的通知。
 
-##### 上架平台：[Google Play (点击进入)](https://play.google.com/store/apps/details?id=com.startialab.poste) 
+##### 上架平台：[Google Play (右键，新标签页打开)](https://play.google.com/store/apps/details?id=com.startialab.poste) 
 
 | 书籍列表 | 历史记录 | 浏览书籍 | 浏览书籍 |
 |:------:|:------:|:------:|:------:|
@@ -44,7 +44,7 @@ Poste 是一个阅读程序，可让您轻松浏览免费杂志等各种多媒�
 ## SecureSamba
 SecureSamba 是一个网盘应用程序，可以随时随地查看安全SAMBA中的文件。包含文件查看、复制、移动、重命名、删除、文件共享、垃圾桶。
 
-##### 上架平台：[Google Play  (点击进入)](https://play.google.com/store/apps/details?id=com.securesamba.startia)
+##### 上架平台：[Google Play  (右键，新标签页打开)](https://play.google.com/store/apps/details?id=com.securesamba.startia)
 
 
 | 文件列表 |操作文件 | 用户登录 | 
@@ -61,7 +61,7 @@ FindAR是一款增强现实（AR）的应用。
 它可以将虚拟的数字信息（视频，3D，音频，图像，文字，链接）与现实世界天衣无缝地叠加在一起。
 你只需打开应用，将摄像头对准可识别图像，即可感受增强现实的全新体验。
 
-##### 上架平台：[官网  (点击进入)](http://manual.find-ar.cn/new.html?id=81)
+##### 上架平台：[官网  (右键，新标签页打开)](http://manual.find-ar.cn/new.html?id=81)
 
 | 启动图片 | 扫描结果 | 录像结果 | 测试图片 |
 |:------:|:------:|:------:|:------:|
