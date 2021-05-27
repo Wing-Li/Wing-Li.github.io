@@ -16,9 +16,6 @@ categories:
 
 【图集】通过图片看尽生活百态。
 
-##### 上架平台：[Google Play (右键，新标签页打开)](https://play.google.com/store/apps/details?id=com.startialab.poste) 
-
-
 | 主页 | 视频 | 检索 | 图集 |
 |:------:|:------:|:------:|:------:|
 |![](https://upload-images.jianshu.io/upload_images/1689895-dd0da48bc0045533.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|![](https://upload-images.jianshu.io/upload_images/1689895-9ac231e9f1041c46.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|![](https://upload-images.jianshu.io/upload_images/1689895-238fa31d772475ca.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|![](https://upload-images.jianshu.io/upload_images/1689895-e49cb449114afda4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|
@@ -33,7 +30,7 @@ categories:
 地理位置，距离，手机电量，wifi名称，屏幕关开，铃声大小.....等等各种消息。
 您还可以设置星标密友，可将密友信息显示在手机桌面上。
 
-##### 上架平台：[酷安  (右键，新标签页打开)]((https://www.coolapk.com/apk/com.lyl.myallforyou))
+##### 上架平台：[酷安  (右键，新标签页打开)](https://www.coolapk.com/apk/com.lyl.myallforyou)
 
 | 密友列表 | 设备信息 | 聊天页面 | 桌面信息 | 
 |:------:|:------:|:------:|:------:|
