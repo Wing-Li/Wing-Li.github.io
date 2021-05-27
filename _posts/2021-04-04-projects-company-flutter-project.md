@@ -5,16 +5,18 @@ categories:
   - projects
 ---
 
+> 公司的正式项目整理，均是由 Flutter 完成的，仅选出有代表性的。 
+
 ## eDates
 eDates 是一款海外社交产品。
 
 1. 可以查看并根据条件筛选用户；
-2. 仿探探滑牌喜欢或错误用户；
+2. 仿探探滑牌喜欢或忽略用户；
 3. QuickChat 随机匹配用户；
 4. 与喜欢的人聊天，可发送文字、图片、视频、猜拳游戏，以及赠送礼物；
 5. 用户信息修改、Google Pay 支付、Apple Pay 支付等常见基本功能。
 
-##### 上架平台：[Google Play (右键，新标签页打开)](https://play.google.com/store/apps/details?id=com.startialab.poste) 
+##### 上架平台：[Google Play (右键，新标签页打开)](https://play.google.com/store/apps/details?id=com.zenyfeelmyy.epal) 
 
 
 | - | - | - | - |
