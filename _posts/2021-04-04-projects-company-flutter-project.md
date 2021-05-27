@@ -1,50 +1,75 @@
 ---
 title: 【blog】公司正式线上项目（Flutter）
-excerpt: 在公司的项目整理，都是由 Flutter 完成的，选出有代表性的。 
+excerpt: 公司的正式项目整理，都是由 Flutter 完成的，仅选出有代表性的。 
 categories:
   - projects
 ---
-# Poste
-Poste 是一个阅读程序，可让您轻松浏览免费杂志等各种多媒体内容。
-各种公司，组织和个人都在我们的后台发布免费杂志、书籍、手册等，并且添加时，可以在书籍页面添加图片、Gif图，音频、视频、AR内容等多媒体内容。
 
-【浏览书籍】与普通的阅读类软件一样，实现看书功能。并且，用户可以在页面，浏览我们提前埋定的图片、Gif图，音频、视频、AR内容等多媒体内容；
+## eDates
+eDates 是一款海外社交产品。
 
-【历史记录】打开书籍之后，会开始将书籍下载到本地，便于离线浏览。下次打开时会检查书籍内容是否有修改，来判断是否从新下载。
+1. 可以查看并根据条件筛选用户；
+2. 仿探探滑牌喜欢或错误用户；
+3. QuickChat 随机匹配用户；
+4. 与喜欢的人聊天，可发送文字、图片、视频、猜拳游戏，以及赠送礼物；
+5. 用户信息修改、Google Pay 支付、Apple Pay 支付等常见基本功能。
 
-【获取站点】扫描组织发布的二维码，可以打开指定的书籍，并且会将站点保存到本地；
-
-【通知】您可以接收站点发送的通知。
-
-##### 上架平台：[Google Play (点击进入)](https://play.google.com/store/apps/details?id=com.startialab.poste) 
+##### 上架平台：[Google Play (右键，新标签页打开)](https://play.google.com/store/apps/details?id=com.startialab.poste) 
 
 
-| 书籍列表 | 历史记录 | 浏览书籍 | 浏览书籍 |
+| - | - | - | - |
 |:------:|:------:|:------:|:------:|
-|![](https://upload-images.jianshu.io/upload_images/1689895-c7e4b999ef65557d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|![](https://upload-images.jianshu.io/upload_images/1689895-21e7a0234fe3cbc1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|![](https://upload-images.jianshu.io/upload_images/1689895-d733d43ca9332cf6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|![](https://upload-images.jianshu.io/upload_images/1689895-cf1f7b0ae11ce780.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|
+|![](http://res.lylyl.cn/mweb/RPReplay_Final1622097498_xiao.gif)|![](http://res.lylyl.cn/mweb/IMG_6866.png)|![](http://res.lylyl.cn/mweb/IMG_6864.png)|![](http://res.lylyl.cn/mweb/IMG_6865.png)|
+|![](http://res.lylyl.cn/mweb/IMG_6868.png)|![](http://res.lylyl.cn/mweb/IMG_6870.png)|![](http://res.lylyl.cn/mweb/IMG_6871.png)|![](http://res.lylyl.cn/mweb/IMG_6874.png)|
+
 
 ---
 
-# SecureSamba
-SecureSamba 是一个网盘应用程序，可以随时随地查看安全SAMBA中的文件。包含文件查看、复制、移动、重命名、删除、文件共享、垃圾桶。
 
-##### 上架平台：[Google Play  (点击进入)](https://play.google.com/store/apps/details?id=com.securesamba.startia)
+## Spice
+Spice 是一款海外社交产品。
+
+1. 根据故事选择答案进行匹配聊天；
+2. 滑牌匹配聊天；
+3. 用户信息修改、Google Pay 支付、Apple Pay 支付等常见基本功能；
+4. 使用 LeanCloud 作为后端数据存储；
+5. 使用云引擎支持部分API，一个人独立完成前后端所有工作。
 
 
-| 文件列表 |操作文件 | 用户登录 | 
-|:------:|:------:|:------:|
-|![](https://upload-images.jianshu.io/upload_images/1689895-bfbcc6f818fafdd7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|![](https://upload-images.jianshu.io/upload_images/1689895-c53624810e919971.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|![](https://upload-images.jianshu.io/upload_images/1689895-421991ccc1d964c7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|
+| - | - | - | - |
+|:------:|:------:|:------:|:------:|
+|![](http://res.lylyl.cn/mweb/RPReplay_Final1622087006_xiao.gif)|![](http://res.lylyl.cn/mweb/IMG_6854.png)|![](http://res.lylyl.cn/mweb/IMG_6855.png)|![](http://res.lylyl.cn/mweb/IMG_6856.png)|
+|![](http://res.lylyl.cn/mweb/IMG_6857.png)|![](http://res.lylyl.cn/mweb/IMG_6858.png)|![](http://res.lylyl.cn/mweb/IMG_6859.png)|![](http://res.lylyl.cn/mweb/IMG_6861.png)|
+
 
 ---
 
-# FindAR 
 
-FindAR是一款增强现实（AR）的应用。
-它可以将虚拟的数字信息（视频，3D，音频，图像，文字，链接）与现实世界天衣无缝地叠加在一起。
-你只需打开应用，将摄像头对准可识别图像，即可感受增强现实的全新体验。
+## Fam360 
 
-##### 上架平台：[官网  (点击进入)](http://manual.find-ar.cn/new.html?id=81)
+Fam360 是一款定位分享App。双方都通过短信注册后，可以在地图上看到对方在一段时间内的位置轨迹，并且可以查看对方电量。双方成为好友后，可以进行聊天。
 
-| 启动图片 | 扫描结果 | 录像结果 | 测试图片 |
+##### 上架平台：[Google Play (右键，新标签页打开)](https://play.google.com/store/apps/details?id=com.safefamilylinklovvvv.fam360)
+
+##### 上架平台：[App Store (注：**中国区没有，需使用海外账户**)](https://apps.apple.com/us/app/fam-360-gps-location-tracker/id1546987854)
+
+| - | - | - | - |
 |:------:|:------:|:------:|:------:|
-|![](https://upload-images.jianshu.io/upload_images/1689895-213b72b1402d0630.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|![](https://upload-images.jianshu.io/upload_images/1689895-75e9630d3307f75e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|![](https://upload-images.jianshu.io/upload_images/1689895-8b8a9041c91e6c0b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|![](https://upload-images.jianshu.io/upload_images/1689895-b5741a55110bd025.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|
+|![](http://res.lylyl.cn/mweb/fan360_1.png)|![](http://res.lylyl.cn/mweb/fan360_2.png)|![](http://res.lylyl.cn/mweb/fan360_3.png)|![](http://res.lylyl.cn/mweb/fan360_4.png)|
+
+
+---
+
+
+## HungryExp 
+
+HungryUS 司机端。HungryUS 外卖应用的司机端，午餐、晚餐、团购，不同类型的司机显示不同风格的样式。
+
+##### 上架平台：[Google Play (右键，新标签页打开)](https://play.google.com/store/apps/details?id=com.hungry.hungrydriver.new)
+
+##### 上架平台：[App Store (右键，新标签页打开)](https://apps.apple.com/sg/app/hungryexp/id1453219317)
+
+| - | - | - | - |
+|:------:|:------:|:------:|:------:|
+|![](http://res.lylyl.cn/mweb/hungryexp_1.jpg)|![](http://res.lylyl.cn/mweb/hungryexp_2.jpg)|![](http://res.lylyl.cn/mweb/hungryexp_3.jpg)|![](http://res.lylyl.cn/mweb/hungryexp_4.jpg)|
+
