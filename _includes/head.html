@@ -4,7 +4,8 @@
   <meta name="referrer" content="no-referrer" />
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <!-- Favicon -->
-  <link rel="shortcut icon" href="{{ site.baseurl }}/images/icon.png">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/images/favicon.ico">
+  <link rel="bookmark" href="{{ site.baseurl }}/images/favicon.ico">
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <!--[if lte IE 8]><script src="{{ "/js/ie/html5shiv.js" | prepend: site.baseurl }}"></script><![endif]-->
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
