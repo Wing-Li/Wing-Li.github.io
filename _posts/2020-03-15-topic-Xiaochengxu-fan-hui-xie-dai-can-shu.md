@@ -1,6 +1,6 @@
 ---
-title: 【小程序】页面返回时，携带参数
-excerpt: 
+title: 页面返回时，
+excerpt: 携带参数
 categories:
   - topics
 tag: 微信小程序 

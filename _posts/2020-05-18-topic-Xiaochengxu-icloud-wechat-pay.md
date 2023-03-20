@@ -1,6 +1,6 @@
 ---
-title: 【小程序】小程序·云开发“微信支付”的代码
-excerpt: 
+title: 小程序·云开发“微信支付”的代码，
+excerpt: 可直接复制
 categories:
   - topics
 tag: 微信小程序 

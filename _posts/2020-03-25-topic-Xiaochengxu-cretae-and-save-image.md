@@ -1,6 +1,6 @@
 ---
-title: 【小程序】生成二维码，并且将二维码保存到本地
-excerpt: 
+title: 生成二维码，
+excerpt: 并且将二维码保存到本地
 categories:
   - topics
 tag: 微信小程序 
